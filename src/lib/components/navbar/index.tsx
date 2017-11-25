@@ -1,26 +1,26 @@
-import * as React from 'react';
-import { uniqueId } from 'lodash';
+import * as React from 'react'
+import { uniqueId } from 'lodash'
 
 export interface NavbarProps {
-  id?: string;
-  brand?: string;
+  id?: string
+  brand?: string
 }
 
 export interface NavbarState {
-    id?: string;
+    id?: string
 }
 
 export class Navbar extends React.Component<NavbarProps, NavbarState> {
 
   componentWillMount() {
-    const id = this.props.id || uniqueId('navbar-');
+    const id = this.props.id || uniqueId('navbar-')
     this.setState({
       id
-    });
+    })
   }
 
   render() {
-    const collapseId: string = this.state.id + '-collapse';
+    const collapseId: string = this.state.id + '-collapse'
 
     return (
       <nav className="navbar navbar-default">
@@ -43,6 +43,6 @@ export class Navbar extends React.Component<NavbarProps, NavbarState> {
           </div>
         </div>
       </nav>
-    );
+    )
   }
 }

@@ -1,10 +1,10 @@
-import * as React from 'react';
-import { RouteProps } from 'react-router-dom';
+import * as React from 'react'
+import { RouteProps } from 'react-router-dom'
 
-import Home from './containers/Home';
-import About from './containers/About';
-import NotFound from './containers/NotFound';
-import Decisions from './containers/Decisions';
+import Home from './containers/Home'
+import About from './containers/About'
+import NotFound from './containers/NotFound'
+import Decisions from './containers/Decisions'
 
 export const routes: RouteProps[] = [{
     path: '/',
@@ -19,4 +19,4 @@ export const routes: RouteProps[] = [{
 }, {
     path: '*',
     component: NotFound
-}];
+}]

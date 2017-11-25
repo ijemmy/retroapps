@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'react'
 
 class Decisions extends React.Component{
   render(){
@@ -6,7 +6,6 @@ class Decisions extends React.Component{
       <div>Decision here</div>
     )
   }
-
 }
 
-export default Decisions;
+export default Decisions

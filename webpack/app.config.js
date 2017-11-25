@@ -106,6 +106,7 @@ module.exports = (options) => {
     },
     module: {
       loaders: concat(
+	      loaders.linter,
         loaders.typescript,
         loaders.bootstapJQueryPlugins,
         loaders.json,
