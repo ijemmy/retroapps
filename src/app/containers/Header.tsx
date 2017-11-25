@@ -12,7 +12,7 @@ export default class Header extends React.Component<any, any> {
                 <Nav align="right">
                     <NavItem to="/">Home</NavItem>
                     <NavItem to="/about">About</NavItem>
-                    <NavItem to="/contact">Contact</NavItem>
+                    <NavItem to="/decisions">Decisions</NavItem>
                 </Nav>
             </Navbar>
         );

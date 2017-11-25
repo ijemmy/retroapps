@@ -3,8 +3,8 @@ import { RouteProps } from 'react-router-dom';
 
 import Home from './containers/Home';
 import About from './containers/About';
-import Contact from './containers/Contact';
 import NotFound from './containers/NotFound';
+import Decisions from './containers/Decisions';
 
 export const routes: RouteProps[] = [{
     path: '/',
@@ -13,9 +13,9 @@ export const routes: RouteProps[] = [{
 }, {
     path: '/about',
     component: About
-}, {
-    path: '/contact',
-    component: Contact
+},{
+    path: '/decisions',
+    component: Decisions
 }, {
     path: '*',
     component: NotFound
